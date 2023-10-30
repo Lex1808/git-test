@@ -4,3 +4,34 @@ print("Again!")
 a = [1, 2, 3, 4, 5]
 a[3] = 85
 print(a)
+
+my_list = []
+num = int(input('Скільки елементів помістити в список? '))
+
+for i in range(num):
+    val = int(input('Число в списку: '))
+    my_list.append(val)
+print(my_list)
+my_list.sort()
+print(my_list)
+
+
+#Як це працює
+
+my_list = []
+swapped = True
+num = int(input("Скільки елементів потрібно відсортувати: "))
+
+for i in range(num):
+   val = float(input("Введіть елемент списку: "))
+   my_list.append(val)
+
+while swapped:
+   swapped = False
+   for i in range(len(my_list) - 1):
+     if my_list[i] > my_list[i + 1]:
+       swapped = True
+       my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+
+print("\nВідсортовано:")
+print(my_list)
