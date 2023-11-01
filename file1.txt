@@ -35,3 +35,7 @@ while swapped:
 
 print("\nВідсортовано:")
 print(my_list)
+
+Erst, wenn die Wolken schlafen gehen
+Kann man uns am Himmel seh'n
+Wir haben Angst und sind allein
