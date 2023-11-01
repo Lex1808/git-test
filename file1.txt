@@ -36,15 +36,3 @@ while swapped:
 print("\nВідсортовано:")
 print(my_list)
 
-Erst, wenn die Wolken schlafen gehen
-Kann man uns am Himmel seh'n
-Wir haben Angst und sind allein
-
-Erst, wenn die Wolken schlafen gehen
-Kann man uns am Himmel sehen
-Wir haben Angst und sind allein
-Gott weiß, ich will kein Engel sein
-Gott weiß, ich will kein Engel sein
-Gott weiß, ich will kein Engel sein
-Gott weiß, ich will kein Engel sein
-Gott weiß, ich will kein Engel sein
